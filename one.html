@@ -1,0 +1,12 @@
+<input id="inputbox" onkeyup="update()">
+
+<!--<button onclick="update()">Btn</button>-->
+<h1 id="result"></h1>
+<script>
+   var a=document.getElementById("inputbox")
+   var b=document.getElementById("result")
+
+   function update(){
+      b.textContent = a.value  
+   }
+</script>
